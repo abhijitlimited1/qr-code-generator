@@ -42,6 +42,7 @@ export default function QRCodeGenerator() {
             value={color}
             onChange={(e) => setColor(e.target.value)}
             className="w-full cursor-pointer mb-4"
+            title="choose color"
           />
         )}
         {text && (
